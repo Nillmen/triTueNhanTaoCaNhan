@@ -31,7 +31,9 @@ Giao diện gồm:
 
 + UCS : Thuật toán tìm kiếm theo chi phí (trong file code là có ít xung đột (ít hậu gần nhau) sẽ có chi phí thấp hơn)
 
-+ A* : Thuật toán tìm kiếm theo chi phí với f = g + h, với g là chi phí từ vị trí bắt đầu đến vị trí hiện tại, h là chi phí ước lượng từ vị trí hiện tại đến đích 
++ A* : Thuật toán tìm kiếm theo chi phí với f = g + h, với g là chi phí từ vị trí bắt đầu đến vị trí hiện tại, h là chi phí ước lượng từ vị trí hiện tại đến đích
+
++ Genetic : Thuật toán mô phỏng việc lai ghép, đòi hỏi phải có các cá thể trong một quần thể ban đầu để tiến hành lai ghép phát sinh đột biến rồi nhận cá thể phù hợp rồi tiếp tục lai ghép.
 
 + Hill_Climbing: Thuật toán tìm kiếm tối ưu cục bộ mô tả quá trình leo núi hội tụ lên đỉnh, phù hợp với bài toán mà tất cả các quá trình tìm kiếm đều chỉ về 1 đích (file code của em không chạy chính xác được thuật toán này).
 
